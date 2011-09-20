@@ -1,6 +1,7 @@
 /*
     Gccg - Generic collectible card game.
     Copyright (C) 2001,2002,2003,2004 Tommi Ronkainen
+	Copyright (C) 2011 Vuillaume Steve
 
   This program is free software; you can redistribute it and/or
   modify it under the terms of the GNU General Public License
@@ -32,12 +33,12 @@ using namespace std;
 /// Namespace for card database and inquiry functions.
 namespace Database
 {
-	/// Storage for card information.
+	/// Stockage des informations de carte.
 	class CardSet
 	{
-		/// XML document tree containing card data.
+		/// Arborescence de documents XML que contient les informations de carte.
 		XML::Document db;
-		/// Quick pointers to card elements.
+		/// Pointeurs rapide aux éléments de la carte.
 		vector<XML::Element*> card;
 		/// Name lookup table containing number of cards having the given name.
 		map<string,list<int> > numbers;

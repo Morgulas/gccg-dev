@@ -4,6 +4,7 @@
     Very simple localization library.
 	
     Copyright (C) 2004 Tommi Ronkainen
+	Copyright (C) 2011 Vuillaume Steve
 
   This program is free software; you can redistribute it and/or
   modify it under the terms of the GNU General Public License
@@ -39,7 +40,7 @@ namespace Localization
 	/// Return name of the language.
 	extern string LanguageName(const string& code);
 	
-	/// Set current language (defaul 'en').
+	/// Set current language (default 'en').
 	extern void SetLanguage(const string& code);
 
 	/// Return current language.

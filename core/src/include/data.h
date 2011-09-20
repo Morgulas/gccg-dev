@@ -1,6 +1,7 @@
 /*
     Gccg - Generic collectible card game.
     Copyright (C) 2001,2002,2003,2004 Tommi Ronkainen
+	Copyright (C) 2011 Vuillaume Steve
 
   This program is free software; you can redistribute it and/or
   modify it under the terms of the GNU General Public License
